@@ -57,6 +57,7 @@ h4,
 h5,
 h6 {
   color: var(--black);
+  text-transform: capitalize;
 }
 
 .btn {
@@ -66,6 +67,13 @@ h6 {
   padding: 0.35rem 0.85rem;
   border-radius: 0.25rem;
   background-color: #469165;
+  transition: all 0.3s ease-in;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #17ca62;
+  transform: scale(1.01);
 }
 
 .flex {
@@ -106,9 +114,9 @@ header nav ul li a {
   border-radius: 2rem;
 }
 .slogan {
-  text-transform: capitalize;
   color: var(--white);
 }
+
 .slogan span {
   color: var(--kv);
 }
@@ -177,9 +185,6 @@ header nav ul li a {
   text-transform: uppercase;
 }
 
-.brain-content h2 {
-  text-transform: capitalize;
-}
 .brain-content .list {
   margin-top: 2rem;
 }
@@ -192,4 +197,58 @@ header nav ul li a {
 
 .brain-content .list li img {
   margin-right: 0.25rem;
+}
+
+.earlybird .container {
+  background-color: #f6f6f3;
+  border-radius: 0.75rem;
+  padding: 3rem 0rem;
+}
+
+.earlybird .container p {
+  max-width: 50%;
+  margin: 1.25rem auto;
+}
+
+.earlybird .container .btn {
+  display: inline-flex;
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+}
+
+.earlybird .container .btn img {
+  margin-left: 0.5rem;
+}
+
+footer {
+  margin-top: 5rem;
+  background-color: #001831;
+  color: var(--white);
+}
+
+.footer-top {
+  justify-content: space-between;
+  padding: 5rem 0;
+}
+
+.social {
+  text-align: left;
+}
+
+.social h5 {
+  color: var(--white);
+  margin-bottom: 1rem;
+  font-size: 1.15rem;
+}
+
+.social ul li {
+  margin-right: 0.7rem;
+}
+
+footer hr {
+  border-width: 0.01px;
+  border-color: #253e56;
+}
+.copyright {
+  padding: 1.5rem 0rem;
 }
