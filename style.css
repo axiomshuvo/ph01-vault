@@ -12,7 +12,7 @@
 body {
   font-family: Roboto, Arial, sans-serif;
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.5;
   color: var(--primary);
   text-align: center;
@@ -42,6 +42,14 @@ h3 {
 h4 {
   font-size: 1.5rem;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--black);
+}
 
 .btn {
   display: inline-block;
@@ -52,11 +60,15 @@ h4 {
   background-color: #469165;
 }
 
-header .container {
+.flex {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+}
+
+header .container {
   padding: 1rem 0;
+  justify-content: space-between;
 }
 
 header nav ul li {
@@ -78,14 +90,17 @@ header nav ul li a {
 .hero {
   color: var(--white);
 }
-.note {
+.notice {
   color: #096e33;
   background-color: var(--white);
   padding: 0.25rem 1rem;
   display: inline-block;
   border-radius: 2rem;
 }
-
+.slogan {
+  text-transform: capitalize;
+  color: var(--white);
+}
 .slogan span {
   color: var(--kv);
 }
@@ -96,19 +111,8 @@ header nav ul li a {
   margin-bottom: 2rem;
 }
 
-.twin {
-}
-.twin {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 .twin a {
   min-height: 30px;
-  /* min-width: 200px; */
-  display: flex;
-  align-items: center;
-  /* justify-content: center; */
 }
 
 .twin .kv img {
@@ -123,4 +127,30 @@ header nav ul li a {
 .twin .kv,
 .twin .tp img {
   margin-right: 10px;
+}
+
+.note {
+  background-color: #fbfbfb;
+  padding: 3rem 0 0 0;
+}
+
+.note-list {
+  margin-top: 2rem;
+}
+
+.single-note {
+  padding: 2.5rem 1rem 0 2rem;
+  background-color: var(--white);
+  border-radius: 0.35rem;
+  margin: 0 1rem;
+  min-height: 210px;
+}
+
+.note-icon {
+  background-color: #f95455;
+  display: inline-block;
+  border-radius: 50%;
+  padding: 0.5rem;
+  height: 30px;
+  width: 30px;
 }
