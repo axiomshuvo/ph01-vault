@@ -42,6 +42,14 @@ h3 {
 h4 {
   font-size: 1.5rem;
 }
+
+h5 {
+  font-size: 1rem;
+}
+ul {
+  list-style: none;
+}
+
 h1,
 h2,
 h3,
@@ -142,7 +150,7 @@ header nav ul li a {
   padding: 2.5rem 1rem 0 2rem;
   background-color: var(--white);
   border-radius: 0.35rem;
-  margin: 0 1rem;
+  margin: 0 0.75rem;
   min-height: 210px;
 }
 
@@ -153,4 +161,35 @@ header nav ul li a {
   padding: 0.5rem;
   height: 30px;
   width: 30px;
+}
+.brain {
+  text-align: left;
+  padding: 3.5rem 0;
+}
+
+.brain-content {
+  padding-left: 2.5rem;
+}
+
+.brain-content h5 {
+  color: var(--kv);
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.brain-content h2 {
+  text-transform: capitalize;
+}
+.brain-content .list {
+  margin-top: 2rem;
+}
+
+.brain-content .list li {
+  justify-content: left;
+  margin-bottom: 0.4rem;
+  color: var(--black);
+}
+
+.brain-content .list li img {
+  margin-right: 0.25rem;
 }
