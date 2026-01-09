@@ -73,6 +73,7 @@ h6 {
 .btn:hover,
 .btn:focus {
   background-color: #17ca62;
+  border-color: #22b3ec;
   transform: scale(1.01);
 }
 
@@ -138,6 +139,10 @@ header nav ul li a {
 .twin .tp {
   background-color: transparent;
   border-color: var(--white);
+}
+.twin .tp:hover,
+.twin .tp:focus {
+  border-color: var(--kv);
 }
 
 .twin .kv,
